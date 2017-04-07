@@ -1,6 +1,6 @@
 # closure-compiler-js
 
-Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS
+Check, compile, transpile, optimize and compress JavaScript with Closure Compiler in JS.
 
 This repo tracks issues related to the publication to npmjs.org and associated plugins.
 Any bugs not related to the plugins themselves should be reported to the [main repository](https://github.com/google/closure-compiler/).
@@ -8,11 +8,11 @@ Any bugs not related to the plugins themselves should be reported to the [main r
 Unlike other packages, this allows Closure Compiler to run entirely in JS.
 *Java is not required.*
 
-This is an experimental release- some features are not available and performance may not be on-par with the Java implementation. [Details Here](#transpilation)
+This is an experimental release - meaning some features are not available and performance may not be on-par with the Java implementation. [Details Here](#transpilation)
 
 ## Usage
 
-First, install the latest version-
+First, install the latest version:
 
 ```bash
 npm install --save google-closure-compiler-js
@@ -20,7 +20,7 @@ npm install --save google-closure-compiler-js
 
 The module supports modern web browsers as well as Node v4 LTS, and provides `compile` as a low-level method to compile JavaScript.
 By default, this compiles ES6 to ES5 and includes the default set of ECMAScript externs files.
-For example-
+For example:
 
 ```js
 const compile = require('google-closure-compiler-js').compile;
