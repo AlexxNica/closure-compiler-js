@@ -131,7 +131,7 @@ gulp.task('script', function() {
 
 ### Languages
 
-The Closure Compiler supports languages:
+The Closure Compiler supports the following languages:
 - `ECMASCRIPT3`, `ECMASCRIPT5` and `ECMASCRIPT5_STRICT` for input and output;
 - `ECMASCRIPT6` and `ECMASCRIPT6_STRICT` for input only;
 -  `ECMASCRIPT6_TYPED` (experimental) for both.
